@@ -39,7 +39,7 @@ namespace PG_EnvioNF.Logic
                 /// Validação dos resultados 
                 if (orderCollection != null && orderCollection.Entities.Count != 0)
                 {
-                    notaFiscal = preencherNF(order, orderCollection);
+                    notaFiscal = preencherNF(order, orderCollection).ToString();
 
 
                     // preencher no format notaFiscal
@@ -87,10 +87,10 @@ namespace PG_EnvioNF.Logic
         /// <param name="pedido">objeto do pedido</param>
         /// <param name="itensPedido">coleção com os itens do pedido</param>
         /// <returns></returns>
-        public String preencherNF(Entity pedido, EntityCollection itensPedido)
+        public StringBuilder preencherNF(Entity pedido, EntityCollection itensPedido)
         {
             /// Declaração das variáveis 
-            String notaFiscal1 = String.Empty;
+            //String notaFiscal1 = String.Empty;
             var notaFiscal = new StringBuilder();
                         
             notaFiscal.AppendLine($"formato=notaFiscal{pedido.Attributes["new_numeropedidomaxweb"]}");
@@ -253,8 +253,8 @@ namespace PG_EnvioNF.Logic
 
 
             /// Retorno da string de NF gerada
-            return notaFiscal1;
-            //return notaFiscal
+            //return notaFiscal1;
+            return notaFiscal;
         }
 
 
