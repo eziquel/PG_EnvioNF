@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PG_EnvioNF", "PG_EnvioNF\PG_EnvioNF.csproj", "{0C90C1E8-B80E-4A7A-85B3-79B44F6884F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C90C1E8-B80E-4A7A-85B3-79B44F6884F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C90C1E8-B80E-4A7A-85B3-79B44F6884F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C90C1E8-B80E-4A7A-85B3-79B44F6884F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C90C1E8-B80E-4A7A-85B3-79B44F6884F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
